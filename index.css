@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  background-color: #D8c5ae;
+  color: #431f10;
+  padding: 10px 0;
+  background-image: url('back13.jpg');
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #431f10;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px; 
+  transition: all ease-in-out 0.5s;
+}
+
+nav ul li a:hover {
+  color: #f4a261;
+  font-size: 20px;
+}
+
+
+.hero {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #f4a261;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px; 
+  transition: all ease-in-out 0.5s;
+}
+
+.btn:hover {
+  background-image: url('https://media1.tenor.com/m/NRSacYCof9cAAAAC/black-smoke.gif') ;
+  font-size: 22px;
+}
+
+
+.offers {
+  padding: 40px 0;
+  background-color: #D8c5ae;
+  text-align: center;
+}
+
+.offers h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.offer-container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.offer:hover{
+   color: white;
+  background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG1lYnM5d3hpdzYyaHRucTZ1ZndtNm9iMTNnMjRxdnAyOTE5NGJlMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J3Khw3q7FFP6V68/giphy.webp');
+  width: 30%;
+  
+}
+
+.offer {
+  background-color: #e9c46a;
+  padding: 20px;
+  width: 25%;
+  border-radius: 8px; 
+  transition: all ease-in-out 0.5s;
+  
+}
+
+.offer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offer p {
+  font-size: 18px;
+}
+
+
+.contacts {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contacts h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contacts ul {
+  list-style: none;
+}
+
+.contacts ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

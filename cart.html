@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="icon" type="image" href="logo1.jpg">
+  <link rel="stylesheet" href="cartt.css">
+</head>
+<body>
+  <header>
+    <h1>Your Cart</h1>
+  </header>
+<br>
+  <main>
+    <div id="cartContainer">
+      <ul id="cartList"></ul>
+      <p id="totalPrice">Total: ₹0.00</p>
+    </div>
+    <div id="customerDetails" style="margin: 2rem 0; text-align: center;">
+      <h3>Customer Details</h3>
+      <input type="text" id="customerName" placeholder="Full Name" required style="padding: 0.5rem; margin: 0.5rem;">
+      <input type="email" id="customerEmail" placeholder="Email" required style="padding: 0.5rem; margin: 0.5rem;">
+      <input type="tel" id="customerPhone" placeholder="Phone Number" required style="padding: 0.5rem; margin: 0.5rem;">
+    </div>
+    
+    <button id="checkoutButton" onclick="checkout()">Checkout</button>
+    <button id="getlost" onclick="goBack()">Back to Menu</button>
+  </main>
+  <script src="carttt.js"></script>
+</body>
+</html>

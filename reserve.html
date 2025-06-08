@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve a Table</title>
+    <link rel="icon" type="image" href="logo1.jpg">
+    <link rel="stylesheet" href="reserr.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reserve a Table</h1>
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="20" required>
+            <button type="submit" formaction="bookconfirm.html">Reserve</button>
+        </form>
+    </div>
+    <form><button type="submit" formaction="projecttt.html">back to home</button></form>
+</body>
+</html>

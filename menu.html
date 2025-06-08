@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="icon" type="image" href="logo1.jpg">
+  <link rel="stylesheet" href="menuuu.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Cafe</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search menu..." oninput="filterMenu()">
+    </div>
+    <button onclick="goToCart()">Go to Cart</button>
+  </header>
+
+  <main>
+    <div class="menu-container" id="menuContainer">
+      <!-- Menu Item 1 -->
+      <div class="menu-item">
+        <img src="cofee1.jpg" alt="espresso">
+        <h3>ESPRESSO</h3>
+        <p class="price">₹1</p>
+        <button onclick="addToCart('ESPRESSO', 1)">Add to Cart</button>
+      </div>
+
+      <!-- Menu Item 2 -->
+      <div class="menu-item">
+        <img src="cofee2.jpg" alt="classic cold coffee">
+        <h3>CLASSIC COLD COFFEE</h3>
+        <p class="price">₹250</p>
+        <button onclick="addToCart('CLASSIC COLD COFFEE', 250)">Add to Cart</button>
+      </div>
+
+      <!-- Menu Item 3 -->
+      <div class="menu-item">
+        <img src="cofee3.jpg" alt="iced latte">
+        <h3>ICED LATTE</h3>
+        <p class="price">₹330</p>
+        <button onclick="addToCart('ICED LATTE', 330)">Add to Cart</button>
+      </div>
+
+      <!-- Menu Item 4 -->
+      <div class="menu-item">
+        <img src="cofee4.jpg" alt="CAFE MOCHA">
+        <h3>CAFE MOCHA</h3>
+        <p class="price">₹239</p>
+        <button onclick="addToCart('CAFE MOCHA', 239)">Add to Cart</button>
+      </div>
+    
+     <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="cofee5.jpg" alt="COLD BREW">
+        <h3>COLD BREW</h3>
+        <p class="price">₹300</p>
+        <button onclick="addToCart('COLD BREW', 300)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="cofee6.jpg" alt="ICED AMERICANO">
+        <h3>ICED AMERICANO</h3>
+        <p class="price">₹239</p>
+        <button onclick="addToCart('ICED AMERICANO', 239)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="cofee7.jpg" alt="CAFE LATTE">
+        <h3>CAFE LATTE</h3>
+        <p class="price">₹239</p>
+        <button onclick="addToCart('CAFE LATTE', 239)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="cookie.jpg" alt="COOKIE">
+        <h3>COOKIE</h3>
+        <p class="price">₹59</p>
+        <button onclick="addToCart('COOKIE', 59)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="muffin .jpg" alt="MUFFIN">
+        <h3>MUFFIN</h3>
+        <p class="price">₹89</p>
+        <button onclick="addToCart('MUFFIN', 89)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="crossiant.jpg" alt="CROSSIANT">
+        <h3>CROSSIANT</h3>
+        <p class="price">₹89</p>
+        <button onclick="addToCart('CROSSIANT', 89)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="danish.jpg" alt="DANISH">
+        <h3>DANISH</h3>
+        <p class="price">₹59</p>
+        <button onclick="addToCart('DANISH', 59)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="puff.jpg" alt="PUFF">
+        <h3>PUFF</h3>
+        <p class="price">₹89</p>
+        <button onclick="addToCart('PUFF', 89)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="wedges.jpg" alt="WEDGES">
+        <h3>WEDGES</h3>
+        <p class="price">₹189</p>
+        <button onclick="addToCart('WEDGES', 189)">Add to Cart</button>
+      </div>
+      <!-- Menu Item 5 -->
+     <div class="menu-item">
+        <img src="poppers.jpg" alt="CHEESE POPPERS">
+        <h3>CHEESE POPPERS</h3>
+        <p class="price">₹189</p>
+        <button onclick="addToCart('CHEESE POPPERS', 189)">Add to Cart</button>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <button onclick="goToCart()">Go to Cart</button>
+  </footer>
+  <a href="projecttt.html">back to home</a>
+  <script src="menuuuu.js"></script>
+</body>
+</html>
